@@ -1,0 +1,73 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #007bff;
+    padding: 20px;
+    text-align: center;
+    
+}
+header h1 {
+    font-size: 36px;
+    color: rgb(248, 230, 230);
+}
+
+header p {
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}
+
+strong{
+    color: #fff;
+    padding: 5px 5px;
+    background-color: #000;
+}
+
+/* Estilos para a seção de formas geométricas */
+.geometric-shapes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.shape {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+}
+
+.name-shape {
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+}
+
+.shape img {
+    max-width: 100%;
+}
+.section{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+} 
+
+/* Estilos para links */
+a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
